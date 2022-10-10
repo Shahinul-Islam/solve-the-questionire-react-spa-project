@@ -9,9 +9,16 @@ const Category = ({ questionSet }) => {
       <div>
         <img src={logo} alt="" />
       </div>
-      <div className="mt-4">
-        <h3>Name: {name}</h3>
-        <p>Total Questions: {total}</p>
+      <div className="mt-4 flex items-center justify-between">
+        <div>
+          <h3>Name: {name}</h3>
+          <p>Questions: {total}</p>
+        </div>
+        <div>
+          <button className="bg-white p-1 text-black rounded-md">
+            Go to Question
+          </button>
+        </div>
       </div>
     </div>
   );
