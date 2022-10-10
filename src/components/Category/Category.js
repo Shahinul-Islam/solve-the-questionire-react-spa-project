@@ -1,7 +1,7 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
 
-const Category = ({ questionSet }) => {
+const Category = ({ questionSet, questionSetHandler }) => {
   console.log(questionSet);
   const { id, logo, name, total } = questionSet;
   return (
@@ -15,7 +15,10 @@ const Category = ({ questionSet }) => {
           <p>Questions: {total}</p>
         </div>
         <div>
-          <button className="bg-white p-1 text-black rounded-md">
+          <button
+            onClick={() => questionSetHandler(id)}
+            className="bg-white p-1 text-black rounded-md"
+          >
             Go to Question
           </button>
         </div>
