@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with solve-the-questionire react project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is made with tailwind and [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

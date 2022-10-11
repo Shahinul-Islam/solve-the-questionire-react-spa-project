@@ -4,7 +4,7 @@ import React from "react";
 const Qusetionire = () => {
   return (
     <div>
-      <h1> hellof</h1>
+      <h1> </h1>
     </div>
   );
 };
