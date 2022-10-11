@@ -31,8 +31,8 @@ const Options = ({ question }) => {
         />
       </div>
       <h2 className="font-bold p-3">{questionWithSpace}</h2>
-      <p>ID: {question.id}</p>
-      <div className="grid text-left md:text-center md:grid-cols-2 p-2">
+      {/* <p>ID: {question.id}</p> */}
+      <form className="grid text-left md:text-center md:grid-cols-2 p-2">
         {question.options.map((option) => (
           <ShowOption
             key={question.id}
@@ -40,7 +40,7 @@ const Options = ({ question }) => {
             question={question}
           ></ShowOption>
         ))}
-      </div>
+      </form>
     </div>
   );
 };

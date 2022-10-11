@@ -18,7 +18,7 @@ const Category = ({ questionSet, questionSetHandler }) => {
             onClick={() => questionSetHandler(id)}
             className="bg-white p-1 text-black rounded-md"
           >
-            Go to Question
+            Questions
           </button>
         </div>
       </div>
