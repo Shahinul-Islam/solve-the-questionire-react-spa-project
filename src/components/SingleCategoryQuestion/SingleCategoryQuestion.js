@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import { useLoaderData } from "react-router-dom";
 import SingleQuestion from "../SingleQuestion/SingleQuestion";
 
@@ -17,3 +17,4 @@ const SingleCategoryQuestion = () => {
 };
 
 export default SingleCategoryQuestion;
+ */

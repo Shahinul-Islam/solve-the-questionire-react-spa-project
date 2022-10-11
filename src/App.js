@@ -9,6 +9,7 @@ import Statistics from "./components/Statistics/Statistics";
 import Blog from "./components/Blog/Blog";
 import Qusetionire from "./components/Qusetionire/Qusetionire";
 import SingleCategoryQuestion from "./components/SingleCategoryQuestion/SingleCategoryQuestion";
+import SingleQuestion from "./components/SingleQuestion/SingleQuestion";
 
 function App() {
   const router = createBrowserRouter([
@@ -36,7 +37,7 @@ function App() {
               `https://openapi.programming-hero.com/api/quiz/${params.questionId}`
             );
           },
-          element: <SingleCategoryQuestion></SingleCategoryQuestion>,
+          element: <SingleQuestion></SingleQuestion>,
         },
 
         {
