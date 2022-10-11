@@ -1,12 +1,18 @@
 import React from "react";
 
-const ShowOption = ({ option }) => {
+const ShowOption = ({ option, question }) => {
+  // console.log(question);
   return (
     <div className="p-2">
-      <div>
-        <input type="radio" className="mx-2" name="option" value={option} />
+      <form>
+        <input
+          type="radio"
+          className="mx-2"
+          name="option"
+          value={question.correctAnswer}
+        />
         {option}
-      </div>
+      </form>
     </div>
   );
 };
