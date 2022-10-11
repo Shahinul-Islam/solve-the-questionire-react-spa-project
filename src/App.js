@@ -10,6 +10,7 @@ import Blog from "./components/Blog/Blog";
 import Qusetionire from "./components/Qusetionire/Qusetionire";
 import SingleCategoryQuestion from "./components/SingleCategoryQuestion/SingleCategoryQuestion";
 import SingleQuestion from "./components/SingleQuestion/SingleQuestion";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   const router = createBrowserRouter([
@@ -50,6 +51,10 @@ function App() {
           element: <Blog></Blog>,
         },
       ],
+    },
+    {
+      path: "*",
+      element: <NotFound></NotFound>,
     },
   ]);
   return (
