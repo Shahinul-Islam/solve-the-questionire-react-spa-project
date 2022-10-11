@@ -1,11 +1,13 @@
 import React from "react";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigate } from "react-router-dom";
 import Category from "../Category/Category";
 
 const Hero = (props) => {
   const questions = useLoaderData();
+  const navigate = useNavigate();
   const questionSetHandler = (id) => {
     console.log("question set clicked", id);
+    navigate(`questionire/${id}`);
   };
   return (
     <div>
