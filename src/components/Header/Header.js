@@ -28,13 +28,40 @@ const Header = () => {
           }`}
         >
           <li className="my-3 md:mr-3">
-            <NavLink to="/qusetionire">Qusetionire</NavLink>
+            <NavLink
+              to="/qusetionire"
+              style={({ isActive, isPending }) => {
+                return {
+                  color: isActive ? "red" : "inherit",
+                };
+              }}
+            >
+              Qusetionire
+            </NavLink>
           </li>
           <li className="my-3 md:mr-3">
-            <NavLink to="/statistics">Statistics</NavLink>
+            <NavLink
+              to="/statistics"
+              style={({ isActive, isPending }) => {
+                return {
+                  color: isActive ? "red" : "inherit",
+                };
+              }}
+            >
+              Statistics
+            </NavLink>
           </li>
           <li className="my-3 md:mr-3">
-            <NavLink to="/blog">Blog</NavLink>
+            <NavLink
+              to="/blog"
+              style={({ isActive, isPending }) => {
+                return {
+                  color: isActive ? "red" : "inherit",
+                };
+              }}
+            >
+              Blog
+            </NavLink>
           </li>
         </ul>
       </div>
