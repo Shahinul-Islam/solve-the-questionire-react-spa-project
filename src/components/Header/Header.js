@@ -23,8 +23,8 @@ const Header = () => {
           )}
         </div>
         <ul
-          className={`md:flex absolute p-6 font-bold bg-slate-400 md:bg-white  md:font-semibold md:static ${
-            open ? "top-15 right-1" : "top-[-290px]"
+          className={`md:flex absolute p-6 font-bold bg-sky-400 md:bg-white  md:font-semibold md:static ${
+            open ? "top-15 right-1 z-10" : "top-[-290px]"
           }`}
         >
           <li className="my-3 md:mr-3">
