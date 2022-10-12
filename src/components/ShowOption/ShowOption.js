@@ -4,13 +4,11 @@ import "react-toastify/dist/ReactToastify.css";
 
 const ShowOption = ({ option, question }) => {
   const checkTheOption = (option) => {
-    // console.log(option, " is clicked");
     if (option !== question.correctAnswer) {
       return toast(`The correct answer is : ${question.correctAnswer}`);
     }
     return toast("Your Answer is correct");
   };
-  // console.log(question);
   return (
     <div>
       <input
@@ -23,7 +21,7 @@ const ShowOption = ({ option, question }) => {
       {option}
       <ToastContainer
         position="top-center"
-        autoClose={5000}
+        autoClose={3000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick

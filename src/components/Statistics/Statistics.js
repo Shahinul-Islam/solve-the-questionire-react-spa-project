@@ -1,13 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import {
-  XAxis,
-  YAxis,
-  Tooltip,
-  BarChart,
-  Bar,
-  ResponsiveContainer,
-} from "recharts";
+import { XAxis, YAxis, Tooltip, BarChart, Bar } from "recharts";
 
 const Statistics = () => {
   const [qsnData, setData] = useState([]);
