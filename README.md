@@ -1,6 +1,16 @@
-# Getting Started with solve-the-questionire react project
+# `Getting Started with solve-the-questionire react project`
 
 This project is made with tailwind and [Create React App](https://github.com/facebook/create-react-app).
+
+## This project is about:
+
+- we fetched data from an API
+- data contains questions category and inside every category there are question set
+- we make them show in the UI
+- used tostify to show the correct answer and wrong answer
+- make the website fully responsive
+- also used axios for fetching data
+- use rechart show the statistics on barchart.
 
 ## Available Scripts
 

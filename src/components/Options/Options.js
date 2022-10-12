@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ShowOption from "../ShowOption/ShowOption";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
@@ -31,7 +31,6 @@ const Options = ({ question }) => {
         />
       </div>
       <h2 className="font-bold p-3">{questionWithSpace}</h2>
-      {/* <p>ID: {question.id}</p> */}
       <form className="grid text-left md:text-center md:grid-cols-2 p-2">
         {question.options.map((option) => (
           <ShowOption

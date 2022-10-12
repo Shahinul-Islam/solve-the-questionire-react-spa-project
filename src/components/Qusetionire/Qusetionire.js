@@ -6,7 +6,6 @@ const Qusetionire = () => {
   return (
     <div>
       <h1 className="text-2xl">
-        {" "}
         Please visit{" "}
         <Link to="/" className="text-blue-700">
           Home
