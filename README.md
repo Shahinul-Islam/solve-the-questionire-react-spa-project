@@ -1,6 +1,8 @@
 # `Getting Started with solve-the-questionire react project`
 
-This project is made with tailwind and [Create React App](https://github.com/facebook/create-react-app).
+This project is made with tailwind and [Create React App](https://spontaneous-squirrel-508445.netlify.app/).
+
+website live at [solve-the-questionire](https://spontaneous-squirrel-508445.netlify.app/).
 
 ## This project is about:
 
